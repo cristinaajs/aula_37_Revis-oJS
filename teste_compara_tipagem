@@ -1,0 +1,20 @@
+//um sinais de igual é atribuição de valor para uma variável
+let numero = 10;
+let numero2 = "10";
+
+//dois sinais de igual compara apenas o valor da variável
+console.log(numero == numero2)
+
+//três sinais de igual compara o valor e o tipo da variável
+console.log(numero === numero2)
+
+//exemplo por que nao pode usar um sinal de =
+// if(numero1 = numero2) {
+//     console.log(numero2)
+// }
+
+//dois sinais de igual antecedidos por um ponto de exclamação compara se os tipos das variáveis são diferentes
+console.log(numero !== numero2)
+
+//um sinal de igual antecedido por um ponto de exclamação compara se os valores são diferentes
+console.log(numero != numero2)
